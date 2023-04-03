@@ -8,16 +8,13 @@ public class NumberToBreakOn {
                 System.out.println(i);
             }
         } else {
-            for (int i = 1; i <= toBreakWith; i++) {
+            for (int i = 1; i <= numberToGoUntil; i++) {
+                if (i==toBreakWith){
+                    break;
+                }
                 System.out.println(i);
             }
         }
 
-
-        for (int i =1;i<=numberToGoUntil;i++){
-            if (numberToGoUntil<toBreakWith){
-                System.out.println();
-            }
-        }
     }
 }
